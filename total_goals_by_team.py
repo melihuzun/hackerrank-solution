@@ -34,6 +34,3 @@ def get_goals(year: int) -> int:
     for t in threads:
         t.join()
     return sum(ouputlist)
-
-
-print(get_goals(2011))
